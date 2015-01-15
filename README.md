@@ -33,7 +33,7 @@ Source code of the Multiple-instance Learning Paraphrase (MultiP) Model in the f
 
 ## CODE 
 
-    The directory ./src/main/ contains the source code for MultiP organized as follows:
+The directory ./src/main/ contains the source code for MultiP organized as follows:
     
     ./src/main/java/*   external packages from MIT/Sussex/UW for stemming, string similarity etc.
     ./src/main/scala/*  core code for MultiP
