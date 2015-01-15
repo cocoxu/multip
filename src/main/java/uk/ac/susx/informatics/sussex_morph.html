@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<!-- saved from url=(0047)http://www.sussex.ac.uk/Users/johnca/morph.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Morphological and Orthographic Tools for English</title>
+<style>
+body {font-family: Arial, Helvetica, sans-serif; font-size: 80%;}
+</style>
+</head>
+<body>
+<h1>Morphological and Orthographic Tools for English</h1>
+<hr>
+<p>
+Tools for inflectional morphological analysis and generation, and for
+determining the orthography of the indefinite article are now available.</p><p>
+
+The tools are:
+
+</p><dl>
+<dt>
+morpha
+</dt><dd>
+a fast and robust morphological analyser for English based on finite-state
+techniques that returns the lemma and inflection type of a word, given the
+word form and its part of speech. (The latter is optional but accuracy is
+degraded if it is not present).
+
+<br></dd><dt>
+morphg
+</dt><dd>
+generates a word form given a specification of the lemma, part-of-speech,
+and the type of inflection required. Morphg is derived automatically from
+morpha, ensuring consistency and reversability of the tools.
+An option controls British English or American English behaviour with
+respect to consonant doubling.
+
+<br></dd><dt>
+<a href="http://www.sussex.ac.uk/Users/johnca/ana1.02.tgz">ana</a>
+</dt><dd>
+postprocesses text to insert the correct form of the indefinite article
+(i.e. <i>a</i> or <i>an</i>). Ana encodes a set of rules keying off the
+pronunciation of the next word (so <i>an</i> is produced if the following
+word starts with a vowel sound, and <i>a</i> otherwise). The tool handles
+plain text, part of speech-tagged text and SGML among other possible formats.
+<br>
+</dd></dl>
+
+<p>
+The tools are implemented using widely-available unix utilities. Ana is
+free for research purposes; for any proposed commercial use please contact
+John Carroll. Morpha and morphg are included in the open source
+<a href="http://ilexir.co.uk/applications/rasp/download/">RASP system</a>.
+
+</p><p>
+</p><hr>
+
+<p>
+A description of morpha and morphg is published in
+
+</p><ul>
+<li style="display:block"><p>
+Minnen, G., J. Carroll and D. Pearce (2001)
+<a href="http://www.sussex.ac.uk/Users/johnca/papers/minnen.pdf">Applied
+morphological processing of English</a>, <i>Natural Language
+Engineering,</i> 7(3). 207-223.
+</p></li>
+</ul>
+
+<p>
+A description of ana is published in
+
+</p><ul>
+<li style="display:block"><p>
+Minnen, G., J. Carroll and D. Pearce (2000)
+<a href="http://www.aclweb.org/anthology/W00-1427">Robust, applied
+morphological generation</a>. In <i>Proceedings of the 1st International
+Natural Language Generation Conference,</i> Mitzpe Ramon, Israel. 201-208.
+</p></li>
+</ul>
+
+<p>
+Please cite one of these papers when describing any research using the
+tools.
+
+</p><p>
+The tools were initially developed in the UK EPSRC-funded <a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=GR/L53175/01">PSET
+project</a> and were further developed on the <a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=GR/N36493/01">RASP project</a>.
+
+</p><p>
+</p><hr>
+<p>
+Back to <a href="http://www.sussex.ac.uk/Users/johnca/index.html">John A. Carroll's homepage</a>
+
+
+
+
+</p></body></html>
