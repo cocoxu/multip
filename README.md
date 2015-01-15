@@ -14,10 +14,10 @@ Source code of the Multiple-instance Learning Paraphrase (MultiP) Model in the f
 ## PACKAGE 
 
   The package contains the following folders and scripts:
-    ./src/          source code for MultiP, in Scala and Java
-    ./data/         the train/dev/test data & word significance data used in topical features in the paper
-    build.sbt       the config file for Simple Build Tool (sbt)
-    run.sh   		the script that compiles and runs MultiP
+     ./src/          source code for MultiP, in Scala and Java
+     ./data/         the train/dev/test data & word significance data used in topical features in the paper
+     build.sbt       the config file for Simple Build Tool (sbt)
+     run.sh   		the script that compiles and runs MultiP
 
   The package requires sbt and Scalala.
   
