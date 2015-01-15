@@ -1,2 +1,5 @@
-# multip
-source code of Multiple-instance Learning Paraphrase (MultiP) Model for Twitter
+# Multiple-instance Learning Paraphrase (MultiP) Model 
+
+Authors: Wei Xu and Alan Ritter
+
+Contact: xwe@cis.upenn.edu
