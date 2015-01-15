@@ -1,4 +1,6 @@
-# Multiple-instance Learning Paraphrase (MultiP) Model 
+# MultiP
+
+Source code for Multiple-instance Learning Paraphrase (MultiP) Model 
 
 Authors: Wei Xu and Alan Ritter
 
