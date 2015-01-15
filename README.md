@@ -23,11 +23,13 @@ The package contains the following folders and scripts:
 The package requires sbt and Scalala.
   
 To install sbt:
-    download it from http://www.scala-sbt.org/ and follow the instructions on its website to install
+
+     download it from http://www.scala-sbt.org/ and follow the instructions on its website to install
     
 To install Scalala:
-    download it by "git clone https://github.com/scalala/Scalala.git"
-    then type "sbt publish-local" under the /Scalala/ directory
+
+     download it by "git clone https://github.com/scalala/Scalala.git"
+     then type "sbt publish-local" under the /Scalala/ directory
  
 ## To run MultiP:
      either type "sbt run" or "./run.sh"     only difference is that run.sh allocates memory space
