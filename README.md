@@ -23,7 +23,7 @@ Contact: xwe@cis.upenn.edu
       download it by "git clone https://github.com/scalala/Scalala.git"
       then type "sbt publish-local" under the /Scalala/ directory
  
-  To run MultiP:
+## To run MultiP:
     either type "sbt run" or "./run.sh"     only difference is that run.sh allocates memory space
 
 
