@@ -92,7 +92,8 @@ The directory ./src/main/ contains the source code for MultiP organized as follo
   We would suggest map them to binary labels as follows:
     
     paraphrases: 4 or 5
-    non-paraphrases: 3
-    debatable: 0 or 1 or 2  (which you may discard if training binary classifier)
+    debatable: 0 or 1 or 2  
+    non-paraphrases: 3   (which we discarded in Paraphrase Identification evaluation)
+
 
 
