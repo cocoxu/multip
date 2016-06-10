@@ -1,6 +1,7 @@
 # MultiP
 
 Authors: Wei Xu and Alan Ritter
+
 Contact: xwe@cis.upenn.edu
 
 Source code of the Multiple-instance Learning Paraphrase (MultiP) Model in the following paper:
